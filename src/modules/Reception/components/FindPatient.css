@@ -1,0 +1,53 @@
+ /* src/modules/Reception/components/FindPatient.css */
+ 
+ .button {
+  padding: 5px 10px;
+  color: white;
+  border: 2px solid #ccc; /* Gray border */
+  border-radius: 5px; 
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button-quick {
+  background-color: #4CAF50; /* Quick Bill button color */
+}
+
+.button-checkin {
+  background-color: #2a79b8; /* Checkin button color */
+}
+
+.button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+
+  .more-dropdown {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Optional: adds a smooth transition effect */
+  }
+  
+  .more-dropdown:hover {
+    background-color: #1796b3; /* Change background on hover */
+    color:white;
+  }
+  
+
+.custom-input {
+  width: 400px;
+  padding: 8px;
+  border: 3px solid #ccc; /* Gray border */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  border-radius: 5px; /* Optional: adds rounded corners */
+  font-size: 16px;
+  outline: none; /* Removes blue border on focus */
+  transition: box-shadow 0.3s ease; /* Smooth transition on focus */
+}
+
+.custom-input:focus {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on focus */
+}
+

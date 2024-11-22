@@ -1,0 +1,9 @@
+/* Sidebar.css */
+ul li a .icon-hover:hover {
+    transform: scale(1.6); /* Enlarges the icon */
+    transition: transform 0.3s ease; /* Adds smooth transition */
+  }
+  
+  ul li {
+    margin-bottom: 16px; /* Adds vertical spacing between icons */
+  }

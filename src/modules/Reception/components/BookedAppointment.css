@@ -1,0 +1,66 @@
+/* src/modules/Reception/components/BookedAppointment.css */
+
+.booked-appointment-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .date-selector {
+    margin-bottom: 30px;
+  }
+  .date-selector input {
+    font-size: 20px;       /* Increase font size */
+    border: 2px solid #8794ac; /* Increase border size and set color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    padding: 8px;          /* Add padding for a more spacious look */
+    border-radius: 5px;    /* Optional: adds rounded corners */
+  }
+  
+  .appointments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .appointments-table th {
+    padding: 10px;
+    border: 2px solid #b7b0b0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);   
+  }
+  .appointments-table td {
+    padding: 10px;
+    border: 2px solid #b7b0b0;
+    background-color: #cdd1d9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-button {
+    padding: 5px 10px;
+    background-color: #137d7d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0f586a;
+  }
+
+  .new-appointment-button {
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    background-color: #1973c1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .new-appointment-button:hover {
+    background-color: #177258;
+  }
+  
+  

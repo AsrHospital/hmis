@@ -1,0 +1,54 @@
+/* src/modules/Reception/components/PurposeSelection.css */
+
+.heading {
+  margin-bottom: 60px; /* Adjust the value as needed */
+}
+
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  gap: 30px; /* Adds space between the buttons */
+}
+
+button {
+  padding: 20px 40px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bill-button, .checkin-button, .ip-admission-button, .appointment-button {
+  color: white;
+  padding: 16px 20px;
+  border: 4px solid #ccc; /* Gray border */
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Wide shadow effect */
+  transition: all 0.3s ease;
+}
+
+.bill-button {
+  background-color: #c86815; /* Green for Check In */
+}
+.checkin-button {
+  background-color: #4CAF50; /* Green for Check In */
+}
+
+.ip-admission-button {
+  background-color: #189496; /* Red for IP Admission */
+}
+
+.appointment-button {
+  background-color: #a5b432; /* Red for IP Admission */
+}
+
+/* Hover effect for all buttons */
+.bill-button:hover, .checkin-button:hover, .ip-admission-button:hover, .appointment-button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+.bill-button:hover{
+background-color: #a46c30;
+}

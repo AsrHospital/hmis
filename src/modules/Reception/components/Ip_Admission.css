@@ -1,0 +1,19 @@
+ /* src/modules/Reception/components/Ip_Admission.css */
+
+ .submit-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: '3px solid #ccc';
+    background-color: #008080;
+    color: white;
+    cursor: pointer; /* Changes the cursor to a pointer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Wide shadow effect */
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #178317; /* Change color on hover */
+}
+
+

@@ -1,0 +1,77 @@
+/* src/modules/Reception/components/PatientForm.css */
+.required-asterisk {
+  color: rgb(232, 89, 42);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.patient-form-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto; /* Center the form container */
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  /* background-color: rgb(14, 98, 98); */
+}
+
+.form-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  font-size: 16px; /* Adjust this value as needed */
+  margin-right: 0px; /* Optional: add space between label and input */
+  font-family: Arial, sans-serif;;
+  width: 150px; /* Set a fixed width for labels to align them */
+}
+
+.form-field input {
+  width: 40%; /* Make each input field take up equal width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Increased font size for input fields */
+  background-color: rgb(227, 230, 230);
+}
+
+/* Styles for select input fields */
+.form-field select {
+  width: 34%; /* Same width as other input fields */
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: 0px; /* Adjust margin between label and select */
+  border-radius: 4px;
+  font-size: 12px; /* Font size for select fields */
+  background-color: rgb(233, 227, 227); /* Optional: Background color */
+  cursor: pointer; /* Cursor change on hover */
+}
+
+.submit-group {
+  display: flex;
+  justify-content: center; /* Center the button */
+}
+
+.submit-group button {
+  padding: 10px 20px;
+  border: '3px solid #ccc';
+  background-color: #008080;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size for button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Wide shadow effect */
+  transition: all 0.3s ease;
+}
+
+.submit-group button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+

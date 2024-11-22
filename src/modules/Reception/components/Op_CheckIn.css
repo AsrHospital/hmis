@@ -1,0 +1,59 @@
+/* src/modules/Reception/components/Op_CheckIn.css */
+
+.container {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto; /* Center the form container */
+    padding: 10px;
+    border-radius: 6px;
+    border: 3px solid #cbc2c2;
+  }
+  
+  .title {
+    text-decoration: underline;
+    color: #235cc4;
+  }
+  
+  /* Input and Select Styles */
+  .input-field, .select-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #a19898;
+    background-color: #ebd1d1;
+    font-size: 18px;
+  }
+  
+  /* Display Styles for Data Fields */
+  .display-field {
+    border: 2px solid #968d8d;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #ede8e8;
+    text-align: left;
+  }
+
+.check-in-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: '3px solid #ccc';
+    background-color: #1a7070;
+    color: white;
+    cursor: pointer; /* Changes the cursor to a pointer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Wide shadow effect */
+    transition: all 0.3s ease;
+}
+
+.check-in-button:hover {
+    background-color: #145b14; /* Change color on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+
+
+  

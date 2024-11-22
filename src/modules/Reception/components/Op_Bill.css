@@ -1,0 +1,105 @@
+.container {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 0px auto;
+  max-width: 1200px; /* Adjust as per your layout */
+  box-sizing: border-box;
+}
+
+  .title {
+    text-decoration: underline;
+    color: #235cc4;
+  }
+
+  .display-field {
+    border: 2px solid #c6bcbc;
+    box-shadow: 0 4px 8px rgba(101, 99, 99, 0.2);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 4px 8px;
+    background-color: #ede8e8;
+    text-align: left;
+  }
+  .select-field {
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid #a19898;
+    background-color: #ebd1d1;
+    font-size: 14px;
+  }
+
+  .input-group {
+    margin-bottom: 5px; /* Reduce the gap between each input group */
+    display: flex;
+    align-items: center; /* Align text and fields nicely */
+  }
+  .input-group p {
+    margin: 0 5px 0 0; /* Reduce spacing around the labels */
+    font-size: 14px; /* Adjust font size if needed */
+  }
+  
+
+  .calculated-values-container {
+    margin-top: 10px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .calculated-values-container h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  .calculated-values-container .input-group {
+    display: flex;
+    justify-content: space-between; /* Space between label and input */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .calculated-values-container .input-group p {
+    margin-right: 10px;
+    font-weight: bold;
+    flex: 1; /* Makes the label take up the remaining space */
+  }
+  .calculated-values-container .input-group .display-field {
+    flex: 2; /* Makes the input or value field take up more space */
+  }
+
+
+  .confirm-receive-btn {
+    display: block;
+    margin: 20px auto 0; /* Center button and add margin at the top */
+    padding: 10px 20px;
+    background-color: #2864a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .confirm-receive-btn:hover {
+    background-color: #653797;
+  }
+  
+
+  .delete-btn {
+    background: none;
+    border: none;
+    background-color: #1e929b;
+    color: rgb(241, 235, 235);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .delete-btn:hover {
+    color: rgb(241, 236, 236); /* Hover effect */
+  }
+  
+  /* Styling for the delete cell */
+  .delete-cell {
+    text-align: center;
+  }

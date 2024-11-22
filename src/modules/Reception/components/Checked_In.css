@@ -1,0 +1,33 @@
+/* src/modules/Reception/components/Checked_In.css */
+.left-align {
+    padding: 10px 20px;
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 14px; 
+  }
+  .small-button {
+    padding: 2px 5px;
+    font-size: 12px;
+    width: 50px;  /* Optional, adjust the width as needed */
+    height: 25px; /* Optional, adjust the height as needed */
+  }
+
+  /* Style for dropdown menu options */
+.menu-option {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Optional: adds a smooth transition effect */
+}
+
+/* Optional: hover effect */
+.menu-option:hover {
+  background-color: #1796b3;
+  color:white; /* Change background on hover */
+}
+  
+
+
+
+  
+
+  

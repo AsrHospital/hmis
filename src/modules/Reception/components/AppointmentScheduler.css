@@ -1,0 +1,88 @@
+.appointment-scheduler-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: px;
+    color: #0d0b0b;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    color: #797272;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #0f9491;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #166e6e;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+  }
+  /* AppointmentScheduler.css */
+
+/* Customize calendar container */
+.calendar-component {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* General calendar styling for date numbers */
+.react-calendar__tile {
+  color: #333; /* Ensure date numbers are visible */
+  font-weight: bold;
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+/* Hover effect for calendar dates */
+.react-calendar__tile:hover {
+  background-color: #cde2ff;
+  color: #235cc4;
+}
+
+/* Selected date styling */
+.react-calendar__tile--active {
+  background-color: #235cc4 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Styling for today’s date */
+.react-calendar__tile--now {
+  background-color: #e0efff;
+  color: #235cc4;
+}
+
+/* Disable dates that are not available for selection */
+.react-calendar__tile--disabled {
+  background-color: #f0f0f0;
+  color: #ccc;
+  cursor: not-allowed;
+}
