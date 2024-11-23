@@ -49,7 +49,7 @@ const Checked_In = () => {
        // Unbind the event listener on cleanup
        document.removeEventListener('mousedown', handleClickOutside);
      };
-   }, []);
+   }, [token]);
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>{error}</p>;

@@ -1,5 +1,5 @@
 // src/App.js
-import React, { useEffect, useState } from 'react';
+import React, {} from 'react';
 import { Routes, Route } from 'react-router-dom'; // set BrowserRouter in index.js
 
 import Login from './modules/Auth/Login';
@@ -10,13 +10,13 @@ import ProtectedRoute from './components/ProtectedRoute';
 import PatientForm from './modules/Reception/components/PatientForm';
 import FindPatient from './modules/Reception/components/FindPatient';
 import PurposeSelection from './modules/Reception/components/PurposeSelection';  
-import Op_CheckIn from './modules/Reception/components/Op_CheckIn';  
-import Checked_In from './modules/Reception/components/Checked_In';
-import Ip_Admission from './modules/Reception/components/Ip_Admission';   
-import Manage_IP from './modules/Reception/components/Manage_IP';   
+import Op_CheckIn from './modules/Reception/components/OpCheckIn';  
+import Checked_In from './modules/Reception/components/CheckedIn';
+import Ip_Admission from './modules/Reception/components/IpAdmission';   
+import Manage_IP from './modules/Reception/components/ManageIP';   
 import AppointmentScheduler from './modules/Reception/components/AppointmentScheduler';   
 import BookedAppointment from './modules/Reception/components/BookedAppointment';
-import Op_Bill from './modules/Reception/components/Op_Bill';
+import Op_Bill from './modules/Reception/components/OpBill';
 
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
