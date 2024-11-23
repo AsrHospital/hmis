@@ -10,13 +10,13 @@ import ProtectedRoute from './components/ProtectedRoute';
 import PatientForm from './modules/Reception/components/PatientForm';
 import FindPatient from './modules/Reception/components/FindPatient';
 import PurposeSelection from './modules/Reception/components/PurposeSelection';  
-import Op_CheckIn from './modules/Reception/components/OpCheckIn';  
-import Checked_In from './modules/Reception/components/CheckedIn';
-import Ip_Admission from './modules/Reception/components/IpAdmission';   
-import Manage_IP from './modules/Reception/components/ManageIP';   
+import OpCheckIn from './modules/Reception/components/OpCheckIn';  
+import CheckedIn from './modules/Reception/components/CheckedIn';
+import IpAdmission from './modules/Reception/components/IpAdmission';   
+import ManageIP from './modules/Reception/components/ManageIP';   
 import AppointmentScheduler from './modules/Reception/components/AppointmentScheduler';   
 import BookedAppointment from './modules/Reception/components/BookedAppointment';
-import Op_Bill from './modules/Reception/components/OpBill';
+import OpBill from './modules/Reception/components/OpBill';
 
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -36,14 +36,13 @@ const App = () => {
         <Route path="/patient/reg" element={ <PatientForm />} />
         <Route path="/findPatient" element={<FindPatient/>} />
         <Route path="/select-purpose/:unique_id" element={ <PurposeSelection /> } />
-        <Route path="/op_checkin/:unique_id" element={<Op_CheckIn />  } />
-        <Route path="/patient/checked_in" element={ <Checked_In />} />
+        <Route path="/op_checkin/:unique_id" element={<OpCheckIn />  } />
+        <Route path="/patient/checked_in" element={ <CheckedIn />} />
         <Route path="/appointment_Schedule" element={<AppointmentScheduler /> } />
         <Route path="/booked-appointments" element={<BookedAppointment />} />
-        <Route path="/op_billing/:unique_id" element={<Op_Bill />} />
-
-        <Route path="/ip_admission/:unique_id" element={<Ip_Admission /> } />
-        <Route path="/patient/manage_ip" element={<Manage_IP />} />
+        <Route path="/op_billing/:unique_id" element={<OpBill />} />
+        <Route path="/ip_admission/:unique_id" element={<IpAdmission /> } />
+        <Route path="/patient/manage_ip" element={<ManageIP />} />
         </Route>
         </Route>
       </Routes>
