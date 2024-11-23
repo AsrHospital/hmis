@@ -60,8 +60,9 @@ const AppointmentScheduler = () => {
           'Authorization': `Bearer ${token}`,
         },
       });
-      alert('Appointment scheduled successfully!');
-      navigate('/booked-appointments');
+      if (response.status === 201){alert('Appointment scheduled successfully!');
+        navigate('/booked-appointments');}
+      
     } catch (error) {
       console.error('Error scheduling appointment', error);
       setErrorMessage('Failed to schedule appointment');

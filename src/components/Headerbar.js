@@ -8,7 +8,7 @@ import './Headerbar.css';
 const Headerbar = ({ setIsAuthenticated }) => {
   const navigate = useNavigate();
   const [dropdown, setDropdown] = useState(null);
-  const [subDropdown, setSubDropdown] = useState(null); // State for the nested submenu
+  const [ setSubDropdown] = useState(null); // State for the nested submenu
 
   const handleLogout = () => {
     localStorage.removeItem('token');
