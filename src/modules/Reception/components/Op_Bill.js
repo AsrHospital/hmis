@@ -1,10 +1,8 @@
-// src/modules/Reception/components/Op_Bill.js
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState} from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from '../../../utils/axiosConfig';
 import './Op_Bill.css';
 import { jsPDF } from 'jspdf';
-// import { useReactToPrint } from 'react-to-print';
 
 const Op_Bill = () => {
     const { unique_id } = useParams(); 
